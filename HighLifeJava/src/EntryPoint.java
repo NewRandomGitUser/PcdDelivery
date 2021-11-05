@@ -11,7 +11,7 @@ public class EntryPoint {
     public static TimeVariation ExecuteHighLifeNThreads(int nThreads) {
         TimeVariation timeVariation = new TimeVariation();
         long start = System.currentTimeMillis();
-        HighLife game = new HighLife(512, nThreads);
+        HighLife game = new HighLife(2048, nThreads);
         game.loopGenerations(2000);
         long finish = System.currentTimeMillis();
         long totalTimeElapsed = finish - start;

@@ -4,7 +4,7 @@
 #include <omp.h>
 #include <sys/time.h>
 #include <time.h>
-#define N 1024
+#define N 2048
 
 long long paralellCodeTime = 0;
 
