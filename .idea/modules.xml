@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HighLifeJava/HighLifeJava.iml" filepath="$PROJECT_DIR$/HighLifeJava/HighLifeJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JogoDaVidaJava/JogoDaVidaJava.iml" filepath="$PROJECT_DIR$/JogoDaVidaJava/JogoDaVidaJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PcdDeliveries.iml" filepath="$PROJECT_DIR$/.idea/PcdDeliveries.iml" />
+    </modules>
+  </component>
+</project>

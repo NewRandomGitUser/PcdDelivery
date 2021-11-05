@@ -18,23 +18,6 @@ public class GameOfLife {
         return paralellCodeTimeVariation;
     }
 
-    //    public int cellValueInNextGenerationGameOfLife(int currentCellValue, int alivedNeighbors) {
-//        if(currentCellValue == 1 && (alivedNeighbors == 2 || alivedNeighbors == 3)) return 1;
-//        else if(currentCellValue == 0 && alivedNeighbors == 3) return 1;
-//        return 0;
-//    }
-
-//    public void fillNewGridGameOfLife() {
-//        int alivedNeighbors = 0;
-//        for(int i = 0; i<N; i++) {
-//            for(int j=0; j<N; j++){
-//                int cellValue = grid.getCell(i,j);
-//                alivedNeighbors =  grid.getNeighbors(i, j);
-//                newGrid.setCell(i, j, cellValueInNextGenerationGameOfLife(cellValue, alivedNeighbors));
-//            }
-//        }
-//    }
-
     public void fillNewGridGameOfLife(int nThreads) {
         int rowsByThread = N / nThreads;
         Thread[] th = new Thread[nThreads];
@@ -102,23 +85,5 @@ public class GameOfLife {
             newGrid.fillGridWithZeros();
         }
     }
-
-//    public void static ()
-
-//    public void loopGenerations(int numberOfGenerations) {
-//        int alivedCells = 0;
-//        for(int i = 0; i<numberOfGenerations; i++) {
-//            if(i==0 || i == 1 || i == 2 || i== 3 || i == 4 || i==80 || i ==81 || i== 100 || i==1000 || i==1999) {
-//                alivedCells = grid.alivedCells();
-//                System.out.println("Generation "+ i + ", Alived Cells: "+ alivedCells);
-//            }
-//            fillNewGridGameOfLife();
-//            copyNewGridToGrid();
-//            newGrid.fillGridWithZeros();
-//        }
-//    }
-
-
-
 
 }
